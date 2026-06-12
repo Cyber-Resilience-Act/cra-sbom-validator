@@ -1,0 +1,29 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "demo-product",
+  "documentNamespace": "https://example.com/spdx/demo-product-1.0.0",
+  "creationInfo": {
+    "created": "2024-01-01T00:00:00Z",
+    "creators": [
+      "Tool: cra-sbom-validator-tests"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ajv",
+      "name": "ajv",
+      "versionInfo": "8.17.1",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/ajv@8.17.1"
+        }
+      ]
+    }
+  ]
+}
+

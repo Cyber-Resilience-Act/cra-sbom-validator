@@ -1,0 +1,26 @@
+{
+  "name": "@cyber-resilience-act/sbom-validator",
+  "version": "0.1.0",
+  "description": "Offline CycloneDX and SPDX JSON SBOM validator extracted from CRA Direct.",
+  "type": "module",
+  "bin": {
+    "cra-sbom-validator": "./src/cli.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "validate": "bun ./src/cli.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.13",
+    "typescript": "^5.9.3"
+  }
+}
+

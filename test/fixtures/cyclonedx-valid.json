@@ -1,0 +1,21 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "metadata": {
+    "timestamp": "2024-01-01T00:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "demo-product",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "ajv",
+      "version": "8.17.1",
+      "purl": "pkg:npm/ajv@8.17.1"
+    }
+  ]
+}
+
